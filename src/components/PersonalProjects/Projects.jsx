@@ -6,8 +6,8 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Projects = () => {
-  const { projects } = useContext(PortfolioContext);
+const PersonalProjects = () => {
+  const { personalProjects } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -26,8 +26,8 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Professional Projects" />
-          {projects.map((project) => {
+          <Title title="Personal Projects" />
+          {personalProjects.map((project) => {
             const { title, info, info2, info3, url, repo, img, id } = project;
 
             return (
@@ -121,4 +121,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default PersonalProjects;

@@ -2,22 +2,22 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Rob Gleeson | Software Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Hi! Welcome to my website!', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hey I\'m',
+  name: 'Rob',
+  subtitle: 'I\'m a Software Developer!',
+  cta: 'Tell me more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -28,30 +28,67 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'aangine.jpg',
+    title: 'Aangine',
+    info: 'Empowered by algorithms, your roadmap instantly incorporates all changes of capacity, budgets, new projects and ideas',
+    info2: 'Continuous Software Ltd - Dublin, Ireland',
+    info3: 'Technologies Used: React/Redux - Webpack - ES Lint - Highcharts.js - AG Grid - Gitlab',
+    url: 'https://www.aangine.com',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'iph.jpg',
+    title: 'International Performance Hub (IPH)',
+    info: 'A comprehensive platform for users to access and engage on global performance indicators',
+    info2: 'Continuous Software Ltd - Dublin, Ireland',
+    info3: 'Technologies Used: React/Redux - D3.js - Node.js',
+    url: 'http://www.iph.sa',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'dellemc.jpg',
+    title: 'Confidential',
+    info: 'A bespoke web application which consumes high quantities of Big Data.',
+    info2: 'DellEMC - Riyadh, Saudi Arabia',
+    info3: 'Technologies Used: React/Redux - Webpack - Material UI - Gitlab',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'digxcel.jpg',
+    title: 'digXcel',
+    info: 'Automated solution for GDPR personal data management',
+    info2: 'Software Design Ltd - Dublin, Ireland',
+    info3: 'Technologies Used: React/Redux - Node.js - RabbitMQ - Gitlab',
+    url: 'https://digxcel.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+];
+
+// PERSONAL PROJECTS DATA
+export const personalProjectsData = [
+  {
+    id: nanoid(),
+    img: 'ewfh.jpg',
+    title: 'E-Working Ireland - Tax Relief Calculator',
+    info: 'Android application used to track and calculate tax relief available for those who work from home',
+    info2: 'Co. Offaly, Ireland',
+    info3: 'Technologies Used: React Native - Expo - GitHub',
+    url: 'https://play.google.com/store/apps/details?id=com.eworkfromhome.eworkfromhome',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'repo.jpg',
+    title: 'Open Repo',
+    info: 'Command line tool for opening GitHub/Gitlab repositories from the command line',
+    info2: 'Co. Offaly, Ireland',
+    info3: 'Technologies Used: Node.js - Github',
+    url: 'https://www.npmjs.com/package/open-repo',
+    repo: 'https://github.com/robbiegleeson/repo', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +96,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'robbie.gleeson@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +105,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'robbiegleeson',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'gleesonrob',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'robbiegleeson',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

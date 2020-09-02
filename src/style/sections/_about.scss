@@ -12,6 +12,10 @@
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   padding-bottom: 10%;
 
+  .round {
+    border-radius: 175px !important;
+  }
+
   @include respond(tab-land) {
     height: 100%;
     -webkit-clip-path: none;
