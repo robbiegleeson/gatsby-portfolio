@@ -39,12 +39,39 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'I\'m a Software Developer from Uíbh Fhailí working for Continuous Software in Dublin and you might also see me in Riyadh, Saudi Arabia as a React.js consultant for DellEMC from time to time!'}
+                    'I\'m a Software Developer working for Continuous Software in Dublin. You might also see me in Riyadh, Saudi Arabia as a React.js consultant for DellEMC from time to time!'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
                     'My passion is to create beautiful experiences. I spend my time experimenting and researching the latest technology. I am a lifelong learner; it empowers me to create magnificent products.'}
                 </p>
+                <Row>
+                  <div style={{ padding: 20 }}>
+                    <h3>Current Position: Lead Software Developer</h3>
+                  </div>
+                </Row>
+                <Row>
+                  <Col md={6} sm={12}>
+                    <div>
+                      <a href="http://www.continuoussoftware.ie" target="_blank">
+                        <img src={require('../../images/cs.jpg')} style={{ width: 100, height: 100, borderRadius: 50, marginTop: 10, marginBottom: 10 }} />
+                      </a>
+                      <p style={{ fontSize: 16 }}>Continuous Software Ltd</p>
+                      <p style={{ fontStyle: 'italic', fontSize: 14 }}>Dublin, Ireland</p>
+                      <p style={{ fontStyle: 'italic', fontSize: 12 }}>July 2018 - present</p>
+                    </div>
+                  </Col>
+                  <Col md={6} sm={12}>
+                    <div>
+                      <a href="https://www.delltechnologies.com/en-ie/index.htm" target="_blank">
+                        <img src={require('../../images/dellemc-logo.jpg')} style={{ width: 100, height: 100, borderRadius: 50, marginTop: 10, marginBottom: 10 }} />
+                      </a>
+                      <p style={{ fontSize: 16 }}>DellEMC</p>
+                      <p style={{ fontStyle: 'italic', fontSize: 14 }}>Riyadh, Saudi Arabia</p>
+                      <p style={{ fontStyle: 'italic', fontSize: 12 }}>August 2020 - present</p>
+                    </div>
+                  </Col>
+                </Row>
                 {/* <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p> */}

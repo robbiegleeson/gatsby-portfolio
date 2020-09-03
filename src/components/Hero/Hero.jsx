@@ -46,7 +46,9 @@ const Header = () => {
             </Fade>
           </Col>
           <Col xs={12} sm={12} md={6} lg={6}>
-            <img src={require('../../images/Programming-pana.svg')} alt="dev" />
+            <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+              <img src={require('../../images/Programming-pana.svg')} alt="dev" />
+            </Fade>
           </Col>
         </Row>
       </Container>

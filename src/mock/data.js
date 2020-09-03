@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hey I\'m',
+  title: "Hey I'm",
   name: 'Rob',
-  subtitle: 'I\'m a Software Developer!',
+  subtitle: "I'm a Software Developer!",
   cta: 'Tell me more',
 };
 
@@ -30,7 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'aangine.jpg',
     title: 'Aangine',
-    info: 'Empowered by algorithms, your roadmap instantly incorporates all changes of capacity, budgets, new projects and ideas',
+    info:
+      'Empowered by algorithms, your roadmap instantly incorporates all changes of capacity, budgets, new projects and ideas',
     info2: 'Continuous Software Ltd - Dublin, Ireland',
     info3: 'Technologies Used: React/Redux - Webpack - ES Lint - Highcharts.js - AG Grid - Gitlab',
     url: 'https://www.aangine.com',
@@ -40,7 +41,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'iph.jpg',
     title: 'International Performance Hub (IPH)',
-    info: 'A comprehensive platform for users to access and engage on global performance indicators',
+    info:
+      'A comprehensive platform for users to access and engage on global performance indicators',
     info2: 'Continuous Software Ltd - Dublin, Ireland',
     info3: 'Technologies Used: React/Redux - D3.js - Node.js',
     url: 'http://www.iph.sa',
@@ -74,7 +76,8 @@ export const personalProjectsData = [
     id: nanoid(),
     img: 'ewfh.jpg',
     title: 'E-Working Ireland - Tax Relief Calculator',
-    info: 'Android application used to track and calculate tax relief available for those who work from home',
+    info:
+      'Android application used to track and calculate tax relief available for those who work from home',
     info2: 'Co. Offaly, Ireland',
     info3: 'Technologies Used: React Native - Expo - GitHub',
     url: 'https://play.google.com/store/apps/details?id=com.eworkfromhome.eworkfromhome',
@@ -105,17 +108,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: 'robbiegleeson',
+      url: 'https://twitter.com/robbiegleeson',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'gleesonrob',
+      url: 'https://www.linkedin.com/in/gleesonrob/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: 'robbiegleeson',
+      url: 'https://www.linkedin.com/in/gleesonrob/',
     },
   ],
 };
