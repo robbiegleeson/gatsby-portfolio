@@ -68,7 +68,7 @@ const About = () => {
                       </a>
                       <p style={{ fontSize: 16 }}>DellEMC</p>
                       <p style={{ fontStyle: 'italic', fontSize: 14 }}>Riyadh, Saudi Arabia</p>
-                      <p style={{ fontStyle: 'italic', fontSize: 12 }}>August 2020 - present</p>
+                      <p style={{ fontStyle: 'italic', fontSize: 12 }}>October 2018 - present</p>
                     </div>
                   </Col>
                 </Row>
