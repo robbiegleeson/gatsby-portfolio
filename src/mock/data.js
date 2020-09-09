@@ -85,6 +85,16 @@ export const personalProjectsData = [
   },
   {
     id: nanoid(),
+    img: 'hup.jpg',
+    title: 'Hup!',
+    info: 'Find a traditional Irish music session near you!',
+    info2: 'Co. Offaly, Ireland',
+    info3: 'Technologies Used: React Native - Expo - GitHub',
+    url: 'https://play.google.com/store/apps/details?id=com.hup.hup',
+    repo: '',
+  },
+  {
+    id: nanoid(),
     img: 'repo.jpg',
     title: 'Open Repo',
     info: 'Command line tool for opening GitHub/Gitlab repositories from the command line',
