@@ -67,7 +67,7 @@ const About = () => {
                       <a href="https://www.delltechnologies.com/en-ie/index.htm" target="_blank">
                         <img src={require('../../images/dellemc-logo.jpg')} style={{ width: 100, height: 100, borderRadius: 50, marginTop: 10, marginBottom: 10 }} />
                       </a>
-                      <p style={{ fontSize: 16 }}>Solution Architect</p>
+                      <p style={{ fontSize: 16 }}>Lead Software Developer</p>
                       <p style={{ fontSize: 14 }}>DellEMC</p>
                       <p style={{ fontStyle: 'italic', fontSize: 14 }}>Riyadh, Saudi Arabia</p>
                       <p style={{ fontStyle: 'italic', fontSize: 12 }}>October 2018 - present</p>
