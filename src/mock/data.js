@@ -74,6 +74,16 @@ export const projectsData = [
 export const personalProjectsData = [
   {
     id: nanoid(),
+    img: 'port-cce.png',
+    title: 'Portarlington CCÉ',
+    info: 'Web application built for Portarlington CCÉ, a branch of Comhaltas Ceoltóirí Éireann.',
+    info2: 'Co. Offaly, Ireland',
+    info3: 'Technologies Used: React.js, Gatsby, Netlify CMS',
+    url: 'https://portarlingtoncce.ie/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'ewfh.jpg',
     title: 'E-Working Ireland - Tax Relief Calculator',
     info:
