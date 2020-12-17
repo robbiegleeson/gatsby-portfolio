@@ -30,11 +30,11 @@ const About = () => {
           <Col md={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
+                <p className="about-wrapper__info-text" style={{ textAlign: 'center' }}>
                   {paragraphOne ||
                     'I\'m a Software Developer working for Continuous Software in Dublin. You might also see me in Riyadh, Saudi Arabia as a React.js consultant for DellEMC from time to time!'}
                 </p>
-                <p className="about-wrapper__info-text">
+                <p className="about-wrapper__info-text" style={{ textAlign: 'center' }}>
                   {paragraphTwo ||
                     'My passion is to create beautiful experiences. I spend my time experimenting and researching the latest technology. I am a lifelong learner; it empowers me to create magnificent products.'}
                 </p>
