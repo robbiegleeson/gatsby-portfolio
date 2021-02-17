@@ -1,12 +1,12 @@
 {
-  "name": "herper-io",
+  "name": "robgleeson-sd",
   "description": "A redesign of my portfolio website.",
-  "displayName": "Herper.io",
+  "displayName": "RobGleeson.dev",
   "version": "2.1.15",
   "author": {
-    "name": "Jacob Herper",
-    "email": "jacob@herper.io",
-    "url": "https://herper.io/"
+    "name": "Rob Gleeson",
+    "email": "robbie.gleeson@gmail.com",
+    "url": "https://robgleeson.dev/"
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.1",
@@ -102,7 +102,8 @@
     "portfolio",
     "web developer",
     "front-end",
-    "software engineer"
+    "software engineer",
+    "software developer"
   ],
   "license": "MIT",
   "scripts": {
@@ -113,10 +114,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakeherp/portfolio"
+    "url": "https://github.com/robbiegleeson/gatsby-portfolio"
   },
   "bugs": {
-    "url": "https://github.com/jakeherp/portfolio/issues"
-  },
-  "snyk": true
+    "url": "https://github.com/robbiegleeson/gatsby-portfolio/issues"
+  }
 }

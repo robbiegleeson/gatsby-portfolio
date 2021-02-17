@@ -6,8 +6,8 @@ module.exports = {
   siteMetadata: {
     title: `Rob Gleeson | SD`,
     description: `Sofrware Developer with an emphesis on the MERN stack`,
-    author: `Jacob Herper <jacob@herper.io>`,
-    siteUrl: `https://herper.io`,
+    author: `Rob Gleeson <robbie.gleeson@gmail.com>`,
+    siteUrl: `https://robgleeson.dev`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -95,8 +95,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jacob Herper Portfolio`,
-        short_name: `Herper.io`,
+        name: `Rob Gleeson | SD`,
+        short_name: `RobGleeson.dev`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#e94e1b`,

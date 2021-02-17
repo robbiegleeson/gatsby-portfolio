@@ -123,9 +123,10 @@ const IndexPage = () => {
           `front end engineer`,
           `react developer`,
           `javascript engineer`,
-          `jacob herper`,
+          `rob gleeson`,
+          `robert gleeson`,
           `developer`,
-          `london`,
+          `ireland`,
         ]}
       />
       <Background params={params} />
