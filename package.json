@@ -109,8 +109,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
-    "start": "npm run develop",
-    "test": "jest",
+    "start": "npm run develop"
   },
   "repository": {
     "type": "git",
