@@ -107,22 +107,10 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "check-types": "tsc",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
     "develop": "gatsby develop",
-    "format:check": "yarn prettier --list-different",
-    "format": "yarn prettier . --write",
     "serve": "gatsby serve",
     "start": "npm run develop",
     "test": "jest",
-    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
-    "test:e2e:ci": "start-server-and-test develop http://localhost:8000 cy:run",
-    "test:lint:fix": "eslint --ignore-path .gitignore . --fix && prettier --ignore-path .gitignore --write \"**/*.+(tsx|js|json|md)\"",
-    "test:lint": "jest --config jest/jest.lint.js",
-    "test:watch": "jest --watch",
-    "validate": "yarn format:check && yarn test:lint",
-    "snyk-protect": "snyk protect"
   },
   "repository": {
     "type": "git",
