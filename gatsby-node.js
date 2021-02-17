@@ -10,12 +10,12 @@ exports.createPages = ({ graphql, actions }) => {
   return graphql(
     `
       {
-        allContentfulItem(sort: { fields: sortOrder, order: ASC }) {
-          edges {
-            node {
-              slug
-              title
-            }
+        contentfulContentfulItem {
+          title
+          type
+          description {
+            id
+            json
           }
         }
       }

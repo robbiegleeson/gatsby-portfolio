@@ -1,21 +1,4 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<h1 align="center">
-  Jacob Herper Portfolio
-</h1>
-
-<p align="center">
-  <a href="https://herper.io/">
-    <img src="https://res.cloudinary.com/jacobherper/image/upload/v1588145287/herper-io-website.gif" alt="Portfolio Site Screenshot" width="800" />
-  </a>
-</p>
-
-This is the repository for my personal portfolio site [herper.io](https://herper.io/) built with [GatsbyJS](https://www.gatsbyjs.org/), TypeScript, Styled-Components and Contentful.
-This project is a constant work in progress, so if you find any bugs, typos or other errors, please feel free to open an _issue_ or a _pull request_. This project is open source, so please feel free to fork and adapt for your own projects (credit would be appreciated).
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/240ddc2a-35a8-412c-8dfb-e87b3c128950/deploy-status)](https://app.netlify.com/sites/herper-io/deploys)
-[![Build Status](https://travis-ci.com/jakeherp/portfolio.svg?branch=master)](https://travis-ci.com/jakeherp/portfolio)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/jakeherp/portfolio)](https://github.com/jakeherp/portfolio/releases)
-
 ## Getting this project up and running
 
 1.  **Fork or Clone**
