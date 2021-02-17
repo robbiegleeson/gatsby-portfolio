@@ -24,7 +24,7 @@ interface IProps {
 }
 
 const Portfolio = ({ data }: IProps) => {
-  const posts = data.allContentfulItem.edges;
+  const posts = data?.allContentfulItem?.edges || [];
 
   return (
     <>
