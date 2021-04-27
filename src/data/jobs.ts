@@ -1,5 +1,18 @@
 export const jobs = [
   {
+    id: 7,
+    title: 'Frontend Team Lead',
+    company: {
+      name: 'ServisBOT Ltd',
+      url: 'https://servisbot.com/',
+    },
+    place: 'Ireland',
+    from: 'April 2021',
+    to: 'present',
+    // tasks: [
+    //   'Joined the team at Dennis to help develop their internal web platform, built on React and Express',
+    // ],
+  },{
     id: 6,
     title: 'Lead Software Developer',
     company: {
@@ -8,7 +21,7 @@ export const jobs = [
     },
     place: 'Dublin, Ireland',
     from: 'July 2018',
-    to: 'present',
+    to: 'March 2021',
     // tasks: [
     //   'Joined the team at Dennis to help develop their internal web platform, built on React and Express',
     // ],
@@ -22,7 +35,7 @@ export const jobs = [
     },
     place: 'Riyadh, Saudi Arabia',
     from: 'October 2018',
-    to: 'present',
+    to: 'March 2021',
     // tasks: [
     //   'Built and maintained internal websites using React (Next.js and Gatsby) with GraphQL and WordPress as a data source',
     //   'Extended internal front-end component library in React with Styled Components',
