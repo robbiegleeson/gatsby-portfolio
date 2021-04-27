@@ -152,7 +152,7 @@ const IndexPage = () => {
             />
           </Headline>
           <Text>
-            I am a lead Software Developer currently working for Continuous Software in Dublin and as a React.js Consultant for Dell EMC in Saudi Arabia.{' '}
+            I' currently working for ServisBOT as a Frontend Team Lead helping our customers improve customer interactions using AI.{' '}
             <strong>
               <Link to="/contact/">Get in touch</Link>
             </strong>{' '}
