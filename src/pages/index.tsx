@@ -152,7 +152,7 @@ const IndexPage = () => {
             />
           </Headline>
           <Text>
-            I' currently working for ServisBOT as a Frontend Team Lead helping our customers improve customer interactions using AI.{' '}
+            I'm currently working for <a href="https://www.servisbot.com" target="_blank">ServisBOT</a> as a Frontend Team Lead helping our customers improve customer interactions using AI.{' '}
             <strong>
               <Link to="/contact/">Get in touch</Link>
             </strong>{' '}
