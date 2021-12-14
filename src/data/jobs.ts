@@ -1,7 +1,7 @@
 export const jobs = [
   {
     id: 7,
-    title: 'Frontend Team Lead',
+    title: 'Frontend Engineering Lead Developer',
     company: {
       name: 'ServisBOT Ltd',
       url: 'https://servisbot.com/',
