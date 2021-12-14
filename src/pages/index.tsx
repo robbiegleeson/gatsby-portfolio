@@ -141,7 +141,7 @@ const IndexPage = () => {
                 "I'm <span class='accent'>Rob</span> Gleeson.",
                 "I'm a problem <span class='accent'> solver</span>.",
                 "I make <span class='accent'> ideas</span> come to <span class='accent'>life</span>.",
-                "I'm a <span class='accent'>Software Developer</span>.",
+                "I'm a <span class='accent'>Frontend Engineering Lead Developer</span>.",
               ]}
               smartBackspace
               backDelay={1000}
