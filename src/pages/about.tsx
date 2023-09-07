@@ -18,7 +18,7 @@ const About = () => {
   const { toggle: toggleJobs, value: showJobs } = useToggle(false);
   const [filter, setFilter] = useState<string>('');
 
-  const truncatedJobs = jobs.slice(0, 2);
+  const truncatedJobs = jobs.slice(0, 4);
   const displayJobs = showJobs ? jobs : truncatedJobs;
 
   const skillCategories = Object.keys(skills);
