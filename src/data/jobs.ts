@@ -1,5 +1,19 @@
 export const jobs = [
   {
+    id: 8,
+    title: 'Senior UI Developer',
+    company: {
+      name: 'Fenergo',
+      url: 'https://www.fenergo.com/',
+    },
+    place: 'Ireland',
+    from: 'March 2023',
+    to: 'present',
+    // tasks: [
+    //   'Joined the team at Dennis to help develop their internal web platform, built on React and Express',
+    // ],
+  },
+  {
     id: 7,
     title: 'Frontend Engineering Lead Developer',
     company: {
@@ -8,7 +22,7 @@ export const jobs = [
     },
     place: 'Ireland',
     from: 'April 2021',
-    to: 'present',
+    to: 'March 2023',
     // tasks: [
     //   'Joined the team at Dennis to help develop their internal web platform, built on React and Express',
     // ],
