@@ -141,7 +141,7 @@ const IndexPage = () => {
                 "I'm <span class='accent'>Rob</span> Gleeson.",
                 "I'm a problem <span class='accent'> solver</span>.",
                 "I make <span class='accent'> ideas</span> come to <span class='accent'>life</span>.",
-                "I'm a <span class='accent'>Frontend Engineering Lead Developer</span>.",
+                "I'm a <span class='accent'>Senior Frontend Engineer</span>.",
               ]}
               smartBackspace
               backDelay={1000}
@@ -152,7 +152,7 @@ const IndexPage = () => {
             />
           </Headline>
           <Text>
-            I'm currently working for <a href="https://www.fenergo.com/" target="_blank">Fenergo</a> as a Senior UI Developer, working to continously improve customer interactions within the Financial Regulation Industry.{' '}
+            I'm currently working for <a href="https://www.servisbot.com/" target="_blank">ServisBOT</a> as a Senior Frontend Engineer, working to continously improve customer interactions using conversational AI.{' '}
             <strong>
               <Link to="/contact/">Get in touch</Link>
             </strong>{' '}
