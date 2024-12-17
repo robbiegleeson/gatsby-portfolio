@@ -1,5 +1,19 @@
 export const jobs = [
   {
+    id: 9,
+    title: 'Senior Frontend Engineer',
+    company: {
+      name: 'ServisBOT',
+      url: 'https://www.servisbot.com/',
+    },
+    place: 'Ireland',
+    from: 'December 2024',
+    to: 'present',
+    // tasks: [
+    //   'Joined the team at Dennis to help develop their internal web platform, built on React and Express',
+    // ],
+  },
+  {
     id: 8,
     title: 'Senior UI Developer',
     company: {
@@ -8,7 +22,7 @@ export const jobs = [
     },
     place: 'Ireland',
     from: 'March 2023',
-    to: 'present',
+    to: 'December 2024',
     // tasks: [
     //   'Joined the team at Dennis to help develop their internal web platform, built on React and Express',
     // ],
