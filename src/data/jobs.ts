@@ -1,7 +1,7 @@
 export const jobs = [
   {
     id: 9,
-    title: 'Senior Frontend Engineer',
+    title: 'Senior Software Engineer',
     company: {
       name: 'ServisBOT',
       url: 'https://www.servisbot.com/',
